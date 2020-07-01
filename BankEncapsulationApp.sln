@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankEncapsulationConsoleUI", "BankEncapsulationConsoleUI\BankEncapsulationConsoleUI.csproj", "{3DDC2F71-CB88-44EC-91FB-04732EFECD84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DDC2F71-CB88-44EC-91FB-04732EFECD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDC2F71-CB88-44EC-91FB-04732EFECD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDC2F71-CB88-44EC-91FB-04732EFECD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDC2F71-CB88-44EC-91FB-04732EFECD84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7079D513-C1BD-40C4-8CF7-B83761E9E4A9}
+	EndGlobalSection
+EndGlobal
