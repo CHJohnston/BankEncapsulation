@@ -10,14 +10,15 @@ namespace BankEncapsulationConsoleUI
             BankAccount customer = new BankAccount();
 
             //Accept the user input of the deposit amount 
-            Console.Write("Enter the amount for your deposit :");
+            Console.Write("Enter the amount for your deposit : ");
             double depositamount = double.Parse(Console.ReadLine());
+            Console.WriteLine();
 
             //Pass the deposit amount to the Deposit method for the customer that will add it to their balance
             customer.Deposit(depositamount);
                       
             //Print out the new balance using the Get Balance method for the customer
-            Console.Write($"Your Current Balance is {customer.GetBalance()}");
+            Console.Write($"Your Current Balance is {customer.GetBalance(), 0:c}");
         }
     }
 }
