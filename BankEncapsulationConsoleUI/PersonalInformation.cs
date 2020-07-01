@@ -10,7 +10,7 @@ namespace BankEncapsulationConsoleUI
         public PersonalInformation()
         {        
         }
-        public string FristName { get; set; }
+        public string FirstName { get; set; }
         public string LastName { get; set; }
         public string StreetAddress { get; set; }
         public string Address2 { get; set; }
@@ -18,7 +18,7 @@ namespace BankEncapsulationConsoleUI
         public string State { get; set; }
         public int Zip { get; set; }
 
-        private string _phoneNumber;
+        private string _phoneNumber ="";
         public string NumberFormatted
         {
             get
@@ -29,6 +29,18 @@ namespace BankEncapsulationConsoleUI
             {
                 _phoneNumber = Regex.Replace($"{value}", @"(\d{3})(\d{3})(\d{4})", "$1-$2-$3");
             }
-        }     
+        }
+
+        //This is a Constructor for the Personal Information Class
+        public PersonalInformation(string firstname, string lastname, string streetaddress, string address2, string city, string state, int zip)
+        {
+            FirstName = firstname;
+            LastName = lastname;
+            StreetAddress = streetaddress;
+            Address2 = address2;
+            City = city;
+            State = state;
+            Zip = zip;
+        }
     }
 }
